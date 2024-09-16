@@ -1,0 +1,96 @@
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-style: dotted;
+    text-align: center;
+    margin: auto;
+}
+table{
+    height: 10%;
+    width:80%;
+    background-color: aquamarine;
+
+}
+
+body {
+    background: #075176
+}
+header {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: black;
+    font-family: 'Gill Sans';
+    text-align: center;
+}
+
+.link {
+    color: blue;
+}
+
+h1 {
+    color: red;
+    font-family: Verdana;
+    text-align: center;
+}
+
+a {
+    color: blue;
+    font-family: 'Times New Roman';
+}
+.sunset {
+    text-align:  center;
+}
+
+img {
+    border: 10px double #111;
+    padding: 0%;
+}
+
+/* Style the navigation bar */
+
+nav {
+    background-color: #091ce8;
+    height: 70px; /* Set height for the navbar */
+    display: flex;
+    justify-content: center; /* Horizontally center the navbar items */
+    align-items: center; /* Vertically center the navbar items */
+}
+
+
+/* Style the links inside the navigation bar */
+.navbar li {
+    float: left; /* Align the list items horizontally */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+
+}
+
+/* Change color on hover */
+.navbar li a:hover {
+    background-color: #111; /* Darker shade when hovering */
+}
+
+/* Clear floats after the nav items */
+nav:after {
+    content: "";
+    display: table;
+    clear: both;
+}
